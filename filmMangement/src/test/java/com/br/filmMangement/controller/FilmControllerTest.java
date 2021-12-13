@@ -51,7 +51,7 @@ public class FilmControllerTest {
 	}
 
 	@Test
-	@DisplayName("Returns list of films when successful")
+	@DisplayName("getAllTest() => Returns list of films when successful")
 	void getAllTest() {
 		String expectedTitle = UtilTest.createFilm().getTitle();
 
@@ -63,7 +63,7 @@ public class FilmControllerTest {
 	}
 
 	@Test
-	@DisplayName("Find by id when Successful")
+	@DisplayName("findByIdTest() => Find by id when Successful")
 	void findByIdTest() {
 		Integer expectedId = UtilTest.createFilm().getId();
 
@@ -76,7 +76,7 @@ public class FilmControllerTest {
 	}
 
 	@Test
-	@DisplayName("Find by title when Successful")
+	@DisplayName("findByTitleTest() => Find by title when Successful")
 	void findByTitleTest() {
 		String expectedTitle = UtilTest.createFilm().getTitle();
 
@@ -89,7 +89,7 @@ public class FilmControllerTest {
 	}
 
 	@Test
-	@DisplayName("Find by title when Successful")
+	@DisplayName("findByTitleEmptyTest() => Return empty when Successful")
 	void findByTitleEmptyTest() {
 
 		Films film = this.filmController.findByTitle("asasad").getBody();
@@ -99,7 +99,7 @@ public class FilmControllerTest {
 	}
 
 	@Test
-	@DisplayName("Returns film when successful")
+	@DisplayName("save() => save film when successful")
 	void save() {
 
 		Films film = filmController.save(UtilTest.createFilm(), true).getBody();
