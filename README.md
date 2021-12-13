@@ -12,7 +12,7 @@ http://localhost:8081/swagger-ui.html
 
 /**************************/
 
-Banco - h2 
+Database - h2 
 
 http://localhost:8080/h2
 
