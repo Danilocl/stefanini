@@ -43,7 +43,7 @@ GET BOOK AND FILM BY TITLE
 http://localhost:8080/books/api/boths/{title}
 
 GET FILM IN THE FILMS API
-http://localhost:8080/books/api/search/{}
+http://localhost:8080/books/api/search/{title}
 
 /**************************/
 
