@@ -12,7 +12,7 @@ http://localhost:8081/swagger-ui.html
 
 /**************************/
 
-Banco - h2 
+Database - h2 
 
 http://localhost:8080/h2
 
@@ -43,7 +43,7 @@ GET BOOK AND FILM BY TITLE
 http://localhost:8080/books/api/boths/{title}
 
 GET FILM IN THE FILMS API
-http://localhost:8080/books/api/search/Dune
+http://localhost:8080/books/api/search/{title}
 
 /**************************/
 
